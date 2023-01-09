@@ -1,0 +1,16 @@
+author:
+  about: Hi! I am a programmer and also a salesforce enthusiast.
+  email: huseyinsimsek89@gmail.com
+  name: "H\xFCseyin \u015Eim\u015Fek"
+  nickname: simseks
+  linkedin: "https://linkedin.com/in/huseyin-simsek-9b2428234"
+  github: "https://github.com/simseks"
+directories:
+  input: source
+  output: out
+  themes: themes
+generator:
+  input: docx
+site:
+  domain: simseks.github.io
+  theme: default
