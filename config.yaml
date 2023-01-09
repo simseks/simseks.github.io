@@ -7,7 +7,7 @@ author:
   github: "https://github.com/simseks"
 directories:
   input: source
-  output: out
+  output: docs
   themes: themes
 generator:
   input: docx
