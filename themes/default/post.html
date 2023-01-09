@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <!--
+            Theme: default
+            This page is generated using WordFlow by devsimsek
+    -->
+    <meta charset="utf-8" />
+    <title>[[title]] by [[nickname]]</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="/public/assets/plugins/bootstrap/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/public/assets/plugins/fontawesome/css/all.css"
+    />
+
+    <!-- Main Stylesheet -->
+    <link href="/public/assets/css/style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <!--<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">-->
+    <!--<link rel="icon" href="images/favicon.png" type="image/x-icon">-->
+  </head>
+  <body class="loaded">
+    <!-- START preloader-wrapper -->
+    <div class="preloader-wrapper loaded">
+      <div class="preloader-inner">
+        <div class="spinner-border text-red"></div>
+      </div>
+    </div>
+    <!-- END preloader-wrapper -->
+
+    <!-- START main-wrapper -->
+    <section class="d-flex">
+      <!-- start of sidenav -->
+      <aside class="text-center bg-dark">
+        <div
+          class="sidenav position-sticky d-flex flex-column justify-content-between"
+        >
+          <a
+            class="navbar-brand font-primary text-white text-center bg-black m-2"
+            href="/"
+          >
+            <!--<img src="images/logo.png" alt="">-->
+            [[nickname]]
+          </a>
+          <!-- end of navbar-brand -->
+
+          <!-- about author -->
+          <div class="my-4 font-primary">
+            <h4 class="text-white">About Me</h4>
+            [[about]]
+          </div>
+          <!-- end of about author -->
+
+          <div class="navbar navbar-dark my-4 p-0 font-primary">
+            <ul class="navbar-nav w-100">
+              <li class="nav-item">
+                <a class="nav-link text-white px-0 pt-0" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://visitorbadge.io/status?path=https%3A%2F%2Fsimseks.github.io"
+                  ><img
+                    src="https://api.visitorbadge.io/api/daily?path=https%3A%2F%2Fsimseks.github.io&label=Ziyaret%C3%A7i%20Say%C4%B1s%C4%B1&countColor=%23263759&style=flat&labelStyle=none"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- end of navbar -->
+
+          <ul class="list-inline nml-2">
+            <li class="list-inline-item">
+              <a href="[[linkedin]]" class="text-white text-red-onHover p-2">
+                <span class="fab fa-linkedin-in"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="[[github]]" class="text-white text-red-onHover p-2">
+                <span class="fab fa-github"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="mailto:[[email]]"
+                class="text-white text-red-onHover p-2"
+              >
+                <span class="fas fa-envelope"></span>
+              </a>
+            </li>
+          </ul>
+          <!-- end of social-links -->
+        </div>
+      </aside>
+      <!-- end of sidenav -->
+      <div class="main-content bg-dark text-black">
+        <!-- start of mobile-nav -->
+        <header class="mobile-nav pt-4">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6">
+                <a href="/">
+                  <!--<img src="images/logo.png" alt="">-->
+                  [[name]]
+                </a>
+              </div>
+              <div class="col-6 text-right">
+                <button class="nav-toggle bg-transparent border text-white">
+                  <span class="fas fa-bars"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="nav-toggle-overlay"></div>
+        <!-- end of mobile-nav -->
+
+        <div class="pb-2 my-5 bg-dark">
+            <div class="mx-3">
+            <h1 class="text-white add-letter-space mt-4">[[title]]</h1>
+              <ul class="post-meta mt-3 mb-4">
+                <li class="d-inline-block mr-3">
+                  <span class="fas fa-clock text-primary"></span>
+                  <a class="ml-1" href="#">[[date]]</a>
+                </li>
+                <li class="d-inline-block">
+                  <span class="fas fa-pen-alt text-primary"></span>
+                  <a class="ml-1" href="#">[[name]]</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="container post bg-white pt-4 my-2">
+          <div class="row justify-content-between">
+            <div class="col-lg-10">
+              <article>[[body]]</article>
+            </div>
+          </div>
+        </div>
+
+        <!-- start of footer -->
+        <footer class="container bg-dark text-white pt-4">
+                <span class="mx-3">Copyright [[name]]. Generated site content by WordFlow.</span>
+        </footer>
+        <!-- end of footer -->
+      </div>
+    </section>
+    <!-- END main-wrapper -->
+
+    <!-- All JS Files -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
